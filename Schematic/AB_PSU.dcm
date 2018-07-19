@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT8490
+D Charger: Buck-boost Solar MPPT
+K Charger, LiIon, MPPT, buck-boost
+F http://www.analog.com/media/en/technical-documentation/data-sheets/8490fa.pdf
+$ENDCMP
+#
+#End Doc Library
