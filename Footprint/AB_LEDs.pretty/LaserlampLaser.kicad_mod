@@ -1,0 +1,12 @@
+(module LaserlampLaser locked (layer F.Cu) (tedit 59947C04)
+  (fp_text reference LD1 (at -1.067 2.693) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PLT510 (at 0 -6.4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  (pad 2 smd roundrect (at 0 -2.8) (size 1.524 2.5) (layers F.Cu F.Mask)(roundrect_rratio 0.25))
+  (pad 3 smd roundrect (at 2.8 0) (size 2.5 1.524) (layers F.Cu F.Mask)(roundrect_rratio 0.25))
+  (pad 1 smd roundrect (at -2.8 0) (size 2.5 1.524) (layers F.Cu F.Mask)(roundrect_rratio 0.25))
+)

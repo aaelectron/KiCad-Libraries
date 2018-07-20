@@ -1,0 +1,9 @@
+(module Hole-M3-Connected (layer F.Cu) (tedit 591712AF)
+  (fp_text reference Hole-M3 (at -0.09906 -3.40106) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0.29972 3.40106) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 6.6 6.6) (drill 3.2) (layers *.Cu *.Mask))
+)

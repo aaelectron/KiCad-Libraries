@@ -1,0 +1,10 @@
+(module Pad_1-2mm (layer F.Cu) (tedit 56EC6D1D)
+  (tags Pad)
+  (fp_text reference J5 (at -2.032 0) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text value CONN_1 (at 0 2.286) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask F.SilkS))
+)

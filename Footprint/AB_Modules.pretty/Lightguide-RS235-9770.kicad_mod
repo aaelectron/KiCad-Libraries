@@ -1,0 +1,14 @@
+(module Lightguide-RS235-9770 (layer F.Cu) (tedit 4FE8DDB0)
+  (fp_text reference Lightguide-RS235-9770 (at 0 -4.0005) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 4.0005) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start -2.99974 -2.60096) (end 2.99974 -2.60096) (layer F.SilkS) (width 0.381))
+  (fp_line (start 2.99974 -2.60096) (end 2.99974 2.60096) (layer F.SilkS) (width 0.381))
+  (fp_line (start 2.99974 2.60096) (end -2.99974 2.60096) (layer F.SilkS) (width 0.381))
+  (fp_line (start -2.99974 2.60096) (end -2.99974 -2.60096) (layer F.SilkS) (width 0.381))
+  (pad "" np_thru_hole oval (at -1.99898 0) (size 1.39954 4.59994) (drill oval 1.39954 4.59994) (layers F.Cu))
+  (pad "" np_thru_hole oval (at 1.99898 0) (size 1.39954 4.59994) (drill oval 1.39954 4.59994) (layers F.Cu))
+)

@@ -1,0 +1,10 @@
+(module Harwin_P1113 (layer F.Cu) (tedit 56F29094)
+  (tags DEV)
+  (fp_text reference TP5 (at 0 -1.95) (layer F.SilkS)
+    (effects (font (size 0.635 0.635) (thickness 0.127)))
+  )
+  (fp_text value CONN_1 (at -0.1 1.2) (layer F.SilkS) hide
+    (effects (font (size 0.635 0.635) (thickness 0.1524)))
+  )
+  (pad 1 thru_hole oval (at 0 0) (size 4 3) (drill 2.1) (layers *.Cu *.Mask))
+)

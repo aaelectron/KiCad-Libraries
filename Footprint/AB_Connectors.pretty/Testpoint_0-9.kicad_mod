@@ -1,0 +1,11 @@
+(module Testpoint_0-9 (layer F.Cu) (tedit 584C418A)
+  (descr "Testpoint with 0.5mm hole.")
+  (tags DEV)
+  (fp_text reference Testpoint (at 0.1 -1.1) (layer F.SilkS) hide
+    (effects (font (size 0.635 0.635) (thickness 0.127)))
+  )
+  (fp_text value P*** (at -0.1 1.2) (layer F.SilkS) hide
+    (effects (font (size 0.635 0.635) (thickness 0.1524)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.9144 0.9144) (drill 0.5) (layers *.Cu *.Mask F.SilkS))
+)
